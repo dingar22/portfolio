@@ -1,198 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
 
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--NAV-->
 
-<!--NAV-->
+    <nav class="navbar">
+      <div class="logo"><a href="#profile">Dina Garis</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <nav class="navbar">
-    
-     <div class="logo"> <a href="#profile">Dina Garis</a></div>
-     <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!--PROFILE-HEADER-->
 
- 
-<!--PROFILE-HEADER-->
-
-  <section id="profile">
+    <section id="profile">
       <div class="section-pic-container section-first">
-        <img src="./img/mecolor.jpg" alt="profile-pic">
+        <img src="./img/mecolor.jpg" alt="profile-pic" />
       </div>
       <div class="section-text">
         <p class="section-text-p1">Hello, I'm</p>
         <h1 class="section-text-h1">Dina Garis</h1>
         <p class="section-text-p2">Digital Designer</p>
-        
+
         <div class="btn-container">
-          <a href="CV - Dina (kopia).pdf" target="_blank" >
-           <button class="btn btn-color-2">View CV</button>
+          <a href="CV - Dina (kopia).pdf" target="_blank">
+            <button class="btn btn-color-2">View CV</button>
           </a>
-          <button onclick="location.href='#contact'" class="btn btn-color-1">Contact info</button>            
+          <button onclick="location.href='#contact'" class="btn btn-color-1">
+            Contact info
+          </button>
         </div>
       </div>
-  </section>
+    </section>
 
+    <!--ABOUT ME-->
 
-  <!--ABOUT ME-->
+    <section id="about">
+      <p class="section-text-p1">GET TO KNOW MORE</p>
+      <h1 class="section-text-h1">ABOUT ME</h1>
 
-  <section id="about">
-    <p class="section-text-p1">GET TO KNOW MORE</p>
-    <h1 class="section-text-h1">ABOUT ME</h1>
+      <div class="section-container">
+        <div class="section-pic-container">
+          <img src="img/computer.jpg" alt="Profile" class="about-pic" />
+        </div>
 
-    <div class="section-container">
-      <div class="section-pic-container">
-        <img src="img/computer.jpg" 
-        alt="Profile"
-        class="about-pic"/>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="img/software-or-graphic-design-icon-vector-12293446.jpg"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Bio</h3>
+              <p>22 years old <br />Gothenburg - Sweden</p>
+            </div>
+            <div class="details-container">
+              <img src="img/my-student-1.png" alt="student icon" class="icon" />
+              <h3>Education</h3>
+              <p>Ongoing Education <br />Digital Design - YRGO</p>
+            </div>
+          </div>
+
+          <div class="text-container">
+            <p>
+              My name is Dina, I'm a 22-year-old digital design student based in
+              Gothenburg. I'm passionate about merging art and technology to
+              craft visually striking designs. I pay close attention to detail
+              and strive to create digital experiences that make a lasting
+              impact.
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="about-details-container">
+    <!--PROJECTS-->
+
+    <section id="projects">
+      <p class="section-text-p1">Explore My Recent</p>
+      <h1 class="section-text-h1">Projects</h1>
+      <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container">
-            <img src="img/software-or-graphic-design-icon-vector-12293446.jpg" 
-            alt="experience icon"
-            class="icon"/>
-            <h3>Bio</h3>
-            <p>22 years old <br/>Gothenburg - Sweden</p>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="img/Creyt.jpg" alt="project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Creyt</h2>
+            <div class="btn-container project-btn">
+              <a href="project.html">
+                <button class="btn btn-color-2 project-btn">View</button>
+              </a>
+            </div>
           </div>
-          <div class="details-container">
-            <img 
-            src="img/my-student-1.png" alt="student icon"
-            class="icon"/>
-            <h3>Education</h3>
-            <p>Ongoing Education <br/>Digital Design - YRGO</p>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="img/Protech.jpg" alt="project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">ProTech</h2>
+            <div class="btn-container project-btn">
+              <a href="projecttwo.html">
+                <button class="btn btn-color-2 project-btn">View</button>
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="img/Motorhead.jpg"
+                alt="project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MotorHead</h2>
+            <div class="btn-container project-btn">
+              <a href="projectthree.html">
+                <button class="btn btn-color-2 project-btn">View</button>
+              </a>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="text-container">
+    <!--CONTACT-->
+
+    <section id="contact">
+      <p class="section-text-p1">Get In Touch</p>
+      <h1 class="section-text-h1">Contact Me</h1>
+
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="img/Mail.jpg" alt="email icon" class="icon contact-icon" />
           <p>
-            My name is Dina, I'm a 22-year-old digital design student based in Gothenburg. I'm passionate about merging art and technology to craft visually striking designs. I pay close attention to detail and strive to create digital experiences that make a lasting impact.
+            <a href="mailto:dina.garis@hotmail.com">Dina.garis@hotmail.com</a>
           </p>
         </div>
-      </div>
-    </div>
 
-  </section>
-
-
-  <!--PROJECTS-->
-
-  <section id="projects">
-    <p class="section-text-p1">Explore My Recent</p>
-    <h1 class="section-text-h1">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-      <div class="details-container color-container">
-       
-        <div class="article-container">
-          <img src="img/Creyt.jpg" 
-          alt="project 1"
-          class="project-img"/>
-        </div>
-        <h2 class="experience-sub-title project-title">Creyt</h2>
-        <div class="btn-container project-btn">
-          <a href="project.html">
-          <button class="btn btn-color-2 project-btn">
-          View
-          </button>
-          </a>
+        <div class="contact-info-container">
+          <img
+            src="img/Linkedin.jpg"
+            alt="linkedin icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
         </div>
       </div>
-      <div class="details-container color-container">
-       
-        <div class="article-container">
-          <img src="img/Protech.jpg" 
-          alt="project 1"
-          class="project-img"/>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="arrow-container">
+        <div class="arrowup-icon">
+          <img
+            src="img/Arrow.jpg"
+            alt="arrowup icon"
+            class="arrowup icon"
+            onclick="location.href='./#profile'"
+          />
         </div>
-        <h2 class="experience-sub-title project-title">ProTech</h2>
-        <div class="btn-container project-btn">
-          <a href="projecttwo.html">
-          <button class="btn btn-color-2 project-btn">
-          View
-          </button>
-          </a>
-        </div>
-      </div>
-      <div class="details-container color-container">
-       
-        <div class="article-container">
-          <img src="img/Motorhead.jpg" 
-          alt="project 1"
-          class="project-img"/>
-        </div>
-        <h2 class="experience-sub-title project-title">MotorHead</h2>
-        <div class="btn-container project-btn">
-          <a href="projectthree.html">
-          <button class="btn btn-color-2 project-btn">
-          View
-          </button>
-          </a>
+        <div class="arrowup-text">
+          <p class="section-text-p1">To The Top</p>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
 
- <!--CONTACT-->
-
-<section id="contact">
-  <p class="section-text-p1">Get In Touch</p>
-  <h1 class="section-text-h1">Contact Me</h1>
- 
-  <div class="contact-info-upper-container">
-   
-    <div class="contact-info-container">
-      <img src="img/Mail.jpg" 
-      alt="email icon"
-      class="icon contact-icon"/>
-      <p><a href="mailto:dina.garis@hotmail.com">Dina.garis@hotmail.com</a></p>
-    </div>
-
-    <div class="contact-info-container">
-      <img src="img/Linkedin.jpg" 
-      alt="linkedin icon"
-      class="icon contact-icon"/>
-      <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
-    </div>
-  
-  </div>
-
-</section>
-
-
- <!--Footer-->
- <footer>
-
-
-  <div class="arrow-container">
-  <div class="arrowup-icon">
-    <img src="img/Arrow.jpg" 
-  alt="arrowup icon"
-  class=" arrowup icon"
-  onclick="location.href='./#profile'"/>
-  </div> 
-  <div class="arrowup-text">
-  <p class="section-text-p1">To The Top</p> 
-</div>
-  </div>
-
-   <p>&#169; 2023 Dina Garis </p>
-</footer>
-
-
-</body>
+      <p>&#169; 2023 Dina Garis</p>
+    </footer>
+  </body>
 </html>
